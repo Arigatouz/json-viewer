@@ -1,20 +1,27 @@
-# // JSON Viewer
+# JSON Viewer
 
-JSON / JSONL → interactive graph visualizer. A JSON Crack rebuild skinned with
-the **AliDevHub design system** (cyberpunk / neon-noir, rev 2026.06).
+**An interactive JSON/JSONL visualizer with TypeScript interface generation.**
 
-**Features**
-- Graph view with band layout (no node overlap), pan / zoom / fit, collapse subtrees
-- Auto-detects JSONL (one record per line) with per-line error reporting
-- Search with neon-magenta hit highlighting
-- TypeScript interface generation from any payload
-- Light / dark themes driven entirely by design tokens (`THEME_CSS` in `src/App.jsx`)
+JSON/JSONL data visualized as interactive graph diagrams with a cyberpunk aesthetic. Powered by the **AliDevHub design system** (neon-noir, rev 2026.06).
 
-**Develop**
+## What's Inside
+
+- **Interactive Graph Visualization** — Visualize JSON structures as interactive node graphs with band layout (preventing node overlap)
+- **JSONL Support** — Auto-detects and visualizes JSONL files (one JSON record per line) with per-line error reporting
+- **TypeScript Interface Generation** — Automatically generate TypeScript interfaces from any JSON payload, useful for type-safe development
+- **Graph Navigation** — Pan, zoom, fit-to-view, and collapse/expand subtrees
+- **Search & Highlight** — Find nodes with neon-magenta hit highlighting
+- **Theming** — Toggle between light and dark themes, fully driven by design tokens (`THEME_CSS` in `src/App.jsx`)
+
+## Develop
+
 ```bash
 npm install
 npm run dev
 ```
 
-**Deploy** — pushing to `main` triggers the GitHub Pages workflow.
-Live at: `https://<your-username>.github.io/json-viewer/`
+## Deploy
+
+Pushing to `main` triggers the GitHub Pages workflow.
+
+Live at: `https://arigatouz.github.io/json-viewer/`

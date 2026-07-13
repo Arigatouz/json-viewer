@@ -1,4 +1,4 @@
-# // Schematic
+# // JSON Viewer
 
 JSON / JSONL → interactive graph visualizer. A JSON Crack rebuild skinned with
 the **AliDevHub design system** (cyberpunk / neon-noir, rev 2026.06).
@@ -17,4 +17,4 @@ npm run dev
 ```
 
 **Deploy** — pushing to `main` triggers the GitHub Pages workflow.
-Live at: `https://<your-username>.github.io/schematic/`
+Live at: `https://<your-username>.github.io/json-viewer/`

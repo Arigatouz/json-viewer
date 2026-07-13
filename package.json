@@ -1,5 +1,5 @@
 {
-  "name": "schematic",
+  "name": "json-viewer",
   "private": true,
   "version": "1.0.0",
   "description": "JSON / JSONL → graph visualizer, AliDevHub design system",

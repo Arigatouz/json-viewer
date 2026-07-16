@@ -64,7 +64,7 @@ export default function SchematicJsonVisualizer() {
   const svgRef = useRef(null);
   const wrapRef = useRef(null);
   const { view, fit, zoom, panHandlers } = useViewport({ svgRef, wrapRef, bbox: laid.bbox });
-  useEffect(() => { fit(); }, [graph.rootId]); // refit when the data changes
+  useEffect(() => { fit(); }, [graph, fit]); // refit when the data changes
 
   // --- TypeScript modal ---
   const [tsOut, setTsOut] = useState(null);

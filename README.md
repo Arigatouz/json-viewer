@@ -25,3 +25,10 @@ npm run dev
 Pushing to `main` triggers the GitHub Pages workflow.
 
 Live at: `https://arigatouz.github.io/json-viewer/`
+
+## Connect
+
+[![Twitter / X](https://img.shields.io/badge/Twitter%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AliDevEgy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alidevegy/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61590774857109)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/arigatouz.bsky.social)

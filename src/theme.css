@@ -148,6 +148,16 @@
 .btn.primary:hover{ color:var(--accent-ink); }
 .btn.icon{ padding:7px 9px; line-height:1; }
 
+.social-links{ display:flex; align-items:center; gap:2px; }
+.social-links a{
+  display:flex; align-items:center; justify-content:center;
+  width:28px; height:28px; color:var(--muted); border-radius:var(--radius-sm);
+  transition: color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+}
+.social-links a svg{ width:14px; height:14px; }
+.social-links a:hover{ color:var(--accent); box-shadow: var(--glow-cyan); }
+.social-links a:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+
 /* ---------------- layout ---------------- */
 .main{ flex:1; display:flex; min-height:0; }
 .editor{

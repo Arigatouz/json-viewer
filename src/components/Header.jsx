@@ -1,3 +1,5 @@
+import { SocialLinks } from "./SocialLinks.jsx";
+
 export function Header({ nodeCount, depth, hits, hasQuery, theme, onToggleTheme }) {
   return (
     <header className="hdr">
@@ -11,6 +13,7 @@ export function Header({ nodeCount, depth, hits, hasQuery, theme, onToggleTheme 
         <span>depth <b>{depth}</b></span>
         {hasQuery && <span>hits <b>{hits}</b></span>}
       </div>
+      <SocialLinks />
       <button className="btn icon" onClick={onToggleTheme} aria-label="Toggle theme">
         {theme === "dark" ? "☀" : "☾"}
       </button>
